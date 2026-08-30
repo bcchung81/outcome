@@ -170,7 +170,7 @@ def rej_without_review(row: LogRow, ctx) -> Issue | None: ...
 | 주차 | 산출물 | 완료 판정 |
 |---|---|---|
 | 1 | 저장소 · model · parse · csv 어댑터 · 레지스트리 뼈대 + row 규칙(E02~E05·E12·W03·W14) | 단위 테스트 |
-| 2 | savings · flags(절감) · xlsx52(구양식) · validate/submit/calc 최소형 | #1 순절감 220.21h ± A6 (독립 대조) |
+| 2 | savings · flags(절감) · xlsx52(구양식) · validate/submit/calc 최소형 | #1을 `52`에서 읽어 산출한 값이 독립 스크립트(`tests/independent/calc_ref.py`)와 A6 일치 |
 | 3 | file·cross 규칙 전부 · quality · monthly · aggregate | 17과제 대장·집계, 규칙 테스트 |
 | 4 | response · sessionize · A8 · 양식 v3 · 52_v2.1 · compare | 3원 대조 → **골든 동결** |
 | 5 | ledger.xlsx · aggregate.md · master · 마감 파일 · README · 버전 노트 · D1 정정 목록 | A1·A2·A3(CLI)·A8 = M1 완료 |
